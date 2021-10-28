@@ -19,7 +19,7 @@ public class NumberToWord {
         int n = 1;
         int word;
         convertedWord = "";
-//        Following Switch Case Will Use Routine Digit Seperation To Choose Appropriate Word And Prefix From String Arrays
+//        Following Switch Case Will Use Routine Digit Seperation To Choose Appropriate Suffix From String Arrays For Power Of Ten
         while (input_number != 0) {
             switch (n) {
                 case 1:
