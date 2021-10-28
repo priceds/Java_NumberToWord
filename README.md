@@ -1,29 +1,24 @@
 # Java Number To Word Conversion
 Converting Given Number Between 0 & 99999999 to Words Using Indian Prefix like lakhs and crore.
-# How It Works
+# What it Does
 
-Main Driver Functions Takes Any Number As String
-Which is then converted to double before converting to int variable
+This Program Converts Any Number Entered Between "0 to 99999999" even with decimal point also to word.
+This Program uses indian units such as lakh,crore instead of us units.
 
-Then Input Limits Given As Min = 0 and Max = 99999999 is checked and if input is outside of this then appropriate error message is displayed
+# How to Run
+Run it through cmd on jdk installed machine or use Any Intellij->CreateProject->AddClass->NameSameAsFile->Run.
+U can use other java ide also.
 
-then
-We check input string (which contains inputted number) for any "." and digits after that
-We split the numbers on either side of "." in two variables & boolean "decimal_point" is set to "true" if decimal point is present
-If number doesn't have floating point , we directly convert string to int and pass value 
-To "convertToWord()" function.
+#test cases and results
 
-Now "convertToWord()" function has switch case style structure containing five cases to convert number to "tens","hundreds"& "thousands" using routine 
-"Digit seperation method" of modulus and remainder and calling "filterAndPass()" function to choose appropriate word from array of strings
-And pass on it to "appendToFinalString()" Method Where each word and prefix are added to string variable named "convertedWord" and when
-All the switch case are passed then same string variable is then returned as value
+0 : Rs. 0 ONLY
 
-Now in driver code we catch this return value in string variable , "now depending upon if number was decimal or with floating point
-We wrote appropriate printline statements" , now in first input check block "we assigned value of isNumberFloatingPoint to true if it was
-else left it as false", we refer this value to print appropriate message.
+4532.56 : Rs. Four Thousand Five Hundred And Thirty Two 56/100 ONLY
 
-We also check for input value for zero , if it's zero we directly print appropriate message without going into main block of code.
+1265293.10 : Rs. Twelve Lakh Sixty Five Thousand Two Hundred And Ninty Three 10/100 ONLY
 
+99999999.99 : Rs. Nine Crore Ninty Nine Lakh Ninty Nine Thousand Nine Hundred ANd Ninty Nine 99/100 ONLY
 
+126555123.02 : Input Value Out Of Range
 
 
