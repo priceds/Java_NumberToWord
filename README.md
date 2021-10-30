@@ -1,5 +1,5 @@
 # Java Number To Word Conversion
-Converting Given Number Between 0 & 99999999 to Words Using Indian Prefix like lakhs and crore.
+Converting Given Number Between 0 & 99999999 to Words Using Indian Prefix Units like lakhs and crore.
 # What it Does
 
 This Program Converts Any Number Entered Between "0 to 99999999" even with decimal point also to word.
