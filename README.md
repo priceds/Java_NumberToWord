@@ -17,7 +17,7 @@ U can use other java ide also.
 
 1265293.10 : Rs. Twelve Lakh Sixty Five Thousand Two Hundred And Ninty Three 10/100 ONLY
 
-99999999.99 : Rs. Nine Crore Ninty Nine Lakh Ninty Nine Thousand Nine Hundred ANd Ninty Nine 99/100 ONLY
+99999999.99 : Rs. Nine Crore Ninty Nine Lakh Ninty Nine Thousand Nine Hundred And Ninty Nine 99/100 ONLY
 
 126555123.02 : Input Value Out Of Range
 
